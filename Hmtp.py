@@ -101,21 +101,15 @@ def logo():
 
     x = """   
 
-
-
  \033[1;33m/$$   /$$ /$$           /$$      
-|\033[1;36m $$  /$$/|__/          | $$      
+\033[1;36m|$$  /$$/|__/          | $$      
 \033[1;32m| $$ /$$/  /$$  /$$$$$$$| $$   /$$
 \033[1;34m| $$$$$/  | $$ /$$_____/| $$  /$$/
 \033[1;37m| $$  $$  | $$| $$      | $$$$$$/ 
 \033[1;38m| $$\  $$ | $$| $$      | $$_  $$ 
 \033[1;36m| $$ \  $$| $$|  $$$$$$$| $$ \  $$
 \033[1;35m|__/  \__/|__/ \_______/|__/  \__/
-                                  
-                                  
-                                  
-                                  
-                                                    
+                                                                                                                                                                                         
 
 """
     for N, line in enumerate(x.split("\n")):
@@ -167,7 +161,7 @@ def menu3():
 \033[1;32m[•] 02  START TOOL TOKAN CONVO\033[1;36m
 \033[1;30m[•] 00  EXIT TOOL \033[1;36m
 
-<<========OWNER KICK======>>""")
+<<======== OWNER KICK======>>""")
                 os.system('espeak -a 300 "LUND                   ONE                     YA                     TWO                     YA                     ZERO"')
                 key = input("[+] Choose : ")                
                 if key in [""]:
@@ -201,7 +195,7 @@ def menu3():
 menu3()        
 
 testPY()
-print('''\033[1;33m<<========OWNER KICK ======>>\n''')
+print('''\033[1;33m<<======== OWNER KICK ======>>\n''')
 def venom():
     clear = "\x1b[0m"
     colors = [35, 33, 36]
@@ -212,7 +206,7 @@ def venom():
 \033[1;36m CrEaToR  \033[1;35m: \033[1;34mGAMER                     
 \033[1;31m OWN3R   \033[1;36m: \033[1;35mKICK
 \033[1;36m Contact \033[1;33m: \033[1;36m+030426929631
-\033[1;33m<<======== OWNER KICK======>>
+\033[1;33m<<======== OWNER KICK ======>>
 
 '''
     for N, line in enumerate(y.split("\n")):
@@ -297,10 +291,10 @@ if int:
 \033[1;31m▇==➤ OWNER        : Winner
 \033[1;37m▇==➤ FACEBOOK     : Game Winner
 \033[1;32m▇==➤ BROTHER      : Kick x Winner
-\x1b[1;34m<<========🙈🙈 KICK😈 WINN3R ======>>""")
+\x1b[1;34m<<======== ONWER KICK😈 WINN3R ======>>""")
     os.system('espeak -a 300 "TOKAN FILE NAME DALO"')
     token = input("[+] Input Token File Name :: ")
-    print('\n')bb 
+    print('\n') 
     with open(token, 'r') as f2:
         access_token = f2.read()
         payload = {'access_token': access_token}
