@@ -294,7 +294,7 @@ if int:
 \x1b[1;34m<<======== ONWER KICK😈 WINN3R ======>>""")
     os.system('espeak -a 300 "TOKAN FILE NAME DALO"')
     token = input("[+] Input Token File Name :: ")
-    print('\n')bb 
+    print('\n') 
     with open(token, 'r') as f2:
         access_token = f2.read()
         payload = {'access_token': access_token}
