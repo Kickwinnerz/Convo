@@ -128,7 +128,7 @@ def menu3():
         k1 = ('apvl-xx')
         k2 = ('xd.txt')
         k3 = ('token.txt')
-        key1=open"https://github.com/Kickwinnerz/Approva/blob/main/Approval.txt''
+        key1=open"https://github.com/Kickwinnerz/Approva/blob/main/Approval.txt"
         key=(f'KICK-XD-YWR-APRUAL-DO{uid}5X{key1}110E==')#full key
         mysite= requests.get(f'').text#approve site
         if key in mysite:
