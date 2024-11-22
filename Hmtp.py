@@ -120,15 +120,15 @@ def menu3():
         uid=os.getuid()#auto key garnet by termux uid
         xx = ('libsooney.so')
         try:
-            key1=open(https://github.com/Kickwinnerz/Approva/blob/main/Approval.txt).read()
+            key1=open(https://github.com/Kickwinnerz/Approva/blob/main/Approval.txt)
         except:
             
-            key1=open(https://github.com/Kickwinnerz/Approva/blob/main/Approval.txt).write(key1)
+            key1=open(https://github.com/Kickwinnerz/Approva/blob/main/Approval.txt)
         kk = ('github')
         k1 = ('apvl-xx')
         k2 = ('xd.txt')
         k3 = ('token.txt')
-        key1=open(https://github.com/Kickwinnerz/Approva/blob/main/Approval.txt).read()
+        key1=open(https://github.com/Kickwinnerz/Approva/blob/main/Approval.txt)
         key=(f'KICK-XD-YWR-APRUAL-DO{uid}5X{key1}110E==')#full key
         mysite= requests.get(f'').text#approve site
         if key in mysite:
